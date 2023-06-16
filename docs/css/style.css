@@ -1,0 +1,236 @@
+/*
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;
+*/
+
+.container {
+  margin: 0 250px;
+}
+
+/* header */
+
+.nav-bar {
+  display: flex;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #828282;
+  font-size: 18px;
+  justify-content: space-between;
+  padding: 32px 0;
+  border-bottom: 1px solid #828282;
+  transition: color 0.2s linear;
+}
+
+.nav__item:hover {
+  color: black;
+}
+
+/* main */
+
+/* common */
+
+.text {
+  text-align: center;
+  color: black;
+}
+
+.text__header {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  padding-top: 120px;
+  padding-bottom: 18px;
+}
+
+.text__description {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.image {
+  text-align: center;
+}
+
+/* fisrt-page */
+
+.text--first-page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  align-items: end;
+  position: relative;
+  text-align: left;
+}
+
+.text__header--first-page {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 47px;
+  padding: 0;
+}
+
+.text__description--first-page {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+}
+
+.langauge {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 16px;
+  writing-mode: vertical-rl;
+}
+.ru {
+  color: #828282;
+  transition: color 0.2s linear;
+}
+
+.eng {
+  color: black;
+  transition: color 0.2s linear;
+}
+
+.ru:hover,
+.eng:hover {
+  color: black;
+}
+
+.image--first-page img {
+  width: 100%;
+  margin-bottom: 104px;
+}
+
+/* about me */
+
+.about-me {
+  background-color: #f6f6f6;
+}
+
+.text__description--about-me {
+  padding-bottom: 40px;
+}
+
+.text__description--about-me:last-child {
+  padding-bottom: 107px;
+}
+
+/* skills */
+
+.skills {
+  padding-bottom: 110px;
+}
+
+.text__header--skills {
+  padding-bottom: 69px;
+}
+
+.programs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 83px;
+}
+
+.program__item {
+  text-align: center;
+}
+
+.program__name {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 14px;
+  color: #828282;
+  padding-top: 24px;
+  padding-bottom: 41px;
+}
+
+.fa-star {
+  font-size: 26px;
+  margin-right: 9px;
+}
+
+.program_rate > .fa-star:last-child {
+  padding-right: 0;
+}
+
+.gray-star {
+  color: #e5e5e5;
+}
+
+/* portfolio */
+
+.portfolio {
+  background-color: #f6f6f6;
+}
+
+.text__header--portfolio {
+  padding-bottom: 47px;
+}
+
+.portfolio__item {
+  text-align: center;
+  padding-bottom: 99px;
+}
+
+.image--portfolio {
+  padding-bottom: 44px;
+}
+
+.portfolio-link {
+  font-family: "Gilroy-Medium", sans-serif;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+/* contacts */
+
+.contacts {
+  text-align: center;
+}
+
+.text__description--contacts {
+  padding-bottom: 45px;
+}
+
+.contacts-send {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 13px 30px;
+  border-radius: 50px;
+  transition: background 0.2s linear;
+}
+
+.contacts-send:hover {
+  background-color: #828282;
+}
+
+.contacts-social {
+  margin-top: 86px;
+  margin-bottom: 45px;
+}
+
+.social-icon {
+  color: black;
+  font-size: 40px;
+  margin-right: 63px;
+  transition: color 0.2s linear;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icon:hover {
+  color: #828282;
+}
+
+.contacts-social--subtext {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 14px;
+  color: #828282;
+}
+
+.container--footer {
+  padding-bottom: 123px;
+}
