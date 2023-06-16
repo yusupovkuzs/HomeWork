@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.custom-select-container {
+  position: relative;
+  box-sizing: border-box;
+}
+.custom-select-container * {
+  box-sizing: border-box;
+}
+.custom-select-container.is-disabled {
+  opacity: 0.333;
+}
+.custom-select-opener {
+  display: block;
+  cursor: pointer;
+  line-height: 24px;
+}
+.custom-select-container select {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.custom-select-panel {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161414;
+  max-height: 0;
+  transition: max-height 0.5s ease-out, overflow-y 0.1s 0.5s;
+  overflow: hidden;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  width: 100%;
+}
+.custom-select-container.is-open .custom-select-panel {
+  max-height: 10.7em;
+  overflow-y: auto;
+}
+.custom-select-option {
+  padding: 0.5em;
+}
+.custom-select-option.has-focus {
+  background-color: #7b61ff86;
+}
+
+.custom-select-optgroup > .custom-select-option {
+  padding-left: 2em;
+}
+.custom-select-optgroup::before {
+  content: attr(data-label);
+  display: block;
+  padding: 0.5em;
+  color: #888;
+}
