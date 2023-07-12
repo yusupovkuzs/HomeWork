@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="ram.ico" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Подберите на данном сайте понравившееся вам изображение.
+      Вставьте его в свой проект таким образом, чтобы на компьютере
+      подгружалось качественное изображение, а после ширины 500px -
+      лёгкая сжатая версия того же изображения. Следом добавьте
+      понравившееся вам изображение с каким-либо описанием к нему. -->
+      <picture>
+        <source media="(max-width: 500px)" srcset="./img/leo.jpg" width="300px">
+        <img src="./img/leo.jpg" alt="leo" width="500px">
+      </picture>
+      <figure>
+        <img src="./img/tiger.jpg" alt="tiger" width="1000px">
+        <figcaption>Тигр-р-р-р</figcaption>
+      </figure>
+    </body>
+</html>
